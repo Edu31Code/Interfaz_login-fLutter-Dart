@@ -53,13 +53,19 @@ class AuthScreen extends StatelessWidget {
             ),
             AuthForm(authType: authType),
             Hero(
-              tag: 'googleplus',
-              child:
-              Image.asset('assets/images/logo.png', height: 50,),
+              tag: 'redes',
+              child:Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children:[
+                Image.asset('assets/images/1.png', height: 50,),
+                Image.asset('assets/images/2.png', height: 50,),
+                Image.asset('assets/images/3.png', height: 50,),
+                Image.asset('assets/images/4.png', height: 50,),
+
+              ]
+
        
-
+              ),
             ),
-
           ],
         ),
       ),
