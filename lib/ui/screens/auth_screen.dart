@@ -32,7 +32,7 @@ class AuthScreen extends StatelessWidget {
                     children: <Widget>[
                       SizedBox(height: 65),
                       Text(
-                        'Hello!',
+                        'itsqmet!',
                         style: TextStyle(
                             color: Colors.white,
                             fontSize: 32,
